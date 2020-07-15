@@ -2,18 +2,19 @@
 ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
 Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz. */
 
-//variante 1 utilizzando una variabile locale
+//variante 1 utilizzando una variabile locale all'interno del ciclo
 /* for(var i=0; i<=100; i++){
     var outPut='';
-    if(i % 3 ==0){
+    if(i % 3 == 0){
         outPut += 'Fizz';
     }
-    if(i % 5 ==0){
+    if(i % 5 == 0){
         outPut += 'Buzz';
     }
-    console.log(outPut, i)
+    console.log(outPut, i);
 }
  */
+
 
 // variante 2 utilizzando variabili globali
 /* var name='Fizz';
@@ -31,7 +32,6 @@ for(var i=0; i<=100; i++){
     }else{
        stampa = i;
     }
-
     console.log(stampa)
 } */
 
